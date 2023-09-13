@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif !important;
+    background-color: #181a29;
+    
+}
+
+img {
+    pointer-events: none;
+}
+
+h4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.952);
+}
+
+.docusign-button[disabled] {
+    opacity: 0.60;
+    cursor: not-allowed !important;
+}
+
+.aut h5 {
+    color: rgb(236, 236, 236);
+    font-size: 1.0rem;
+    font-weight: 400;
+}
+
+.aut p {
+    color: rgb(183, 191, 209);
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.geci {
+    background-color: #0f101a;
+}
+
+.text-white {
+    color: rgb(233, 233, 233);
+}
+
+
+.bmg {
+    padding-left: 100px;
+        padding-right: 100px;
+}
+
+.mobiles {
+    display: none !important;
+}
+
+.nmobile {
+    display: flex !important;
+}
+
+@media only screen and (max-width: 890px) {
+    .bmg {
+        padding-left: 20px;
+            padding-right: 20px;
+    }
+
+    .mobiles {
+        display: flex !important;
+    }
+
+    .nmobile {
+        display: none !important;
+    }
+
+  }
+
+  .pc {
+    font-size: 14px;
+  }
+
+  
+  .pcc {
+    font-size: 13px;
+  }
+  
+
+  .erdx {
+    margin: 0 25%;
+  }
+
+  @media only screen and (max-width: 1600px) {
+   
+    .erdx {
+        margin: 0 20%;
+      }
+  }
+
+  @media only screen and (max-width: 1310px) {
+   
+    .erdx {
+        margin: 0 10%;
+      }
+  }
+
+  @media only screen and (max-width: 810px) {
+   
+    .erdx {
+        margin: 0 0%;
+      }
+  }
